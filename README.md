@@ -150,6 +150,13 @@ A RESTful API built with FastAPI for managing user authentication and role-based
   ```bash
   Authorization: Bearer <token>
   ```
+**Technologies Used**
+
+Framework: FastAPI
+
+Database: MongoDB (via MongoEngine)
+
+Authentication: JWT (JSON Web Tokens)
 
 ---
 
