@@ -4,6 +4,8 @@ Here's what you should include in your `README.md` file for each endpoint:
 
 # FastAPI Project API
 
+A RESTful API built with FastAPI for managing user authentication and role-based access control (RBAC) using JWT tokens and MongoDB. This project includes endpoints for user registration, login, and project CRUD operations with role-specific access.
+
 ## Setup Instructions
 1. **Create a virtual environment:**
    ```bash
