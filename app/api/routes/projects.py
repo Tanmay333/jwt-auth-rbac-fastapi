@@ -17,7 +17,7 @@ async def get_projects(_: User = Depends(get_current_user)):
         created_at=project.created_at,
         updated_at=project.updated_at
     ) for project in projects]
-# NAkul GArg 003 
+ 
 @router.post("/", response_model=ProjectResponse, status_code=status.HTTP_201_CREATED)
 async def create_project(
     project_data: ProjectCreate,
