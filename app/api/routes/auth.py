@@ -24,7 +24,7 @@ async def register(user_data: UserCreate):
     user.save()
     
     return UserResponse(username=user.username, role=user.role)
-# Nakul Garg 003 
+ 
 @router.post("/login", response_model=Token)
 async def login(user_data: UserLogin):
     user = User.objects(username=user_data.username).first()
