@@ -8,7 +8,7 @@ class Project(Document):
     updated_at = DateTimeField(default=datetime.utcnow)
 
     meta = {'collection': 'projects'}
-# nakulgarg003
+
     def save(self, *args, **kwargs):
         self.updated_at = datetime.utcnow()
         return super(Project, self).save(*args, **kwargs)
