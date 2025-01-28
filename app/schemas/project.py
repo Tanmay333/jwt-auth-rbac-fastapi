@@ -11,7 +11,7 @@ class ProjectCreate(ProjectBase):
 class ProjectUpdate(ProjectBase):
     name: Optional[str] = None
     description: Optional[str] = None
-# nakulgarg003
+
 class ProjectResponse(ProjectBase):
     id: str
     created_at: datetime
